@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  color: white;
+  background: linear-gradient(145deg, #2193b0, #6dd5ed);
+  margin: 60px auto;
+  width: 400px;
+  border-radius: 4px;
+  font-family: "Open Sans", sans-serif;
+}
+.container .main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .main-section .search-bar {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 20px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.container .main-section .search-bar .search-icon {
+  margin-right: 5px;
+  position: absolute;
+  left: 0;
+}
+.container .main-section .search-bar .search-icon-micro {
+  margin-left: 5px;
+  position: absolute;
+  right: 0;
+  cursor: pointer;
+}
+.container .main-section .search-bar #search-input {
+  border: 0;
+  outline: 0;
+  padding: 3px 3px 3px 20px;
+  background: transparent;
+  height: 20px;
+  color: white;
+}
+.container .main-section .search-bar #search-input::-moz-placeholder {
+  color: rgb(206, 206, 206);
+}
+.container .main-section .search-bar #search-input:-ms-input-placeholder {
+  color: rgb(206, 206, 206);
+}
+.container .main-section .search-bar #search-input::placeholder {
+  color: rgb(206, 206, 206);
+}
+.container .main-section .info-wrapper {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 50px auto;
+  height: 30vh;
+}
+.container .main-section .info-wrapper .city-name {
+  font-size: 20px;
+  margin-bottom: 3px;
+}
+.container .main-section .info-wrapper .weather-state {
+  font-size: 13px;
+}
+.container .main-section .info-wrapper .weather-icon {
+  width: 90px;
+  height: 90px;
+}
+.container .main-section .info-wrapper .temperature {
+  font-size: 80px;
+  font-weight: lighter;
+  line-height: 1;
+  position: relative;
+}
+.container .main-section .temperature::after {
+  content: "o";
+  font-size: 30px;
+  position: absolute;
+}
+.container .additional-section {
+  border-top: 1px solid white;
+  padding: 10px;
+}
+.container .additional-section .row {
+  display: flex;
+  flex-direction: row;
+}
+.container .additional-section .row .item {
+  flex: 1;
+}
+.container .additional-section .row .item .label {
+  font-size: 15px;
+  font-weight: 700;
+}/*# sourceMappingURL=style.css.map */
